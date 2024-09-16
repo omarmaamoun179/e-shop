@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "653396970740",
+    "project_id": "talabatapp-f3186",
+    "storage_bucket": "talabatapp-f3186.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:653396970740:android:77b608745b8cdeda9f62a1",
+        "android_client_info": {
+          "package_name": "com.eshopsingle.customer"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDFINLEu9IHMucog84wQ7tuzhuM3_qBXC0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:653396970740:android:2fcbc3e5a72e6da89f62a1",
+        "android_client_info": {
+          "package_name": "com.foodies.customer.android"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDFINLEu9IHMucog84wQ7tuzhuM3_qBXC0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
