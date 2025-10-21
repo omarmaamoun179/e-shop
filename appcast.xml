@@ -1,10 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0">
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
   <channel>
     <title>Edumarket Updates</title>
+
     <item>
-      <title>1.0.19</title>
-      <enclosure url="https://play.google.com/store/apps/details?id=com.raiseright.edumarketapp" />
+      <!-- العنوان لازم يكون رقم النسخة فقط، بدون كلام -->
+      <title>1.0.21</title>
+
+      <!-- Upgrader بيقرأ رابط التحديث من enclosure
+           وبيفضّل وجود sparkle:version -->
+      <enclosure
+        url="https://play.google.com/store/apps/details?id=com.raiseright.edumarketapp"
+        sparkle:version="1.0.21" />
+
+      <!-- اختياريين بس مفيدين -->
+      <description><![CDATA[
+        - تحسينات الأداء
+        - إصلاح بعض الأعطال
+      ]]></description>
+      <pubDate>Wed, 22 Oct 2025 12:00:00 GMT</pubDate>
     </item>
+
   </channel>
 </rss>
