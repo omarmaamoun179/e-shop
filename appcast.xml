@@ -1,18 +1,20 @@
-This XML file does not appear to have any style information associated with it. The document tree is shown below.
-<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
-<channel>
-<title>Edumarket Updates</title>
-<item>
-<!--  العنوان لازم يكون رقم النسخة فقط، بدون كلام  -->
-<title>1.0.20</title>
-<!--  Upgrader بيقرأ رابط التحديث من enclosure
-           وبيفضّل وجود sparkle:version  -->
-<enclosure url="https://play.google.com/store/apps/details?id=com.raiseright.edumarketapp" sparkle:version="1.0.20"/>
-<!--  اختياريين بس مفيدين  -->
-<description>
-<![CDATA[ - تحسينات الأداء - إصلاح بعض الأعطال ]]>
-</description>
-<pubDate>Wed, 22 Oct 2025 12:00:00 GMT</pubDate>
-</item>
-</channel>
+<?xml version="1.0" encoding="utf-8"?>
+<rss
+  xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle"
+  version="2.0">
+
+  <channel>
+    <title>Edumarket Updates</title>
+
+    <item>
+      <!-- الإصدار فقط -->
+      <title>1.0.20</title>
+      <enclosure
+        url="https://play.google.com/store/apps/details?id=com.raiseright.edumarketapp"
+        sparkle:version="1.0.20" />
+      <description><![CDATA[- تحسينات الأداء - إصلاح بعض الأعطال]]></description>
+      <pubDate>Wed, 22 Oct 2025 12:00:00 GMT</pubDate>
+    </item>
+
+  </channel>
 </rss>
